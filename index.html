@@ -45,15 +45,15 @@
               <p class="gender-title">性別</p>
               <div class="gender-select">
                 <label class="gender-select-content">
-                  <input type="radio" class="gender-radio" name="gender">
+                  <input type="radio" class="gender-radio" name="gender" value="male">
                   <span class="selection">男性</span>
                 </label>
                 <label class="gender-select-content">
-                  <input type="radio" class="gender-radio" name="gender">
+                  <input type="radio" class="gender-radio" name="gender" value="female">
                   <span class="selection">女性</spsn>
                 </label>
                 <label class="gender-select-content">
-                  <input type="radio" class="gender-radio" name="gender">
+                  <input type="radio" class="gender-radio" name="gender" value="other">
                   <span class="selection">その他</span>
                 </label>
               </div>
@@ -89,20 +89,20 @@
               <p class="password-confirmation-text">パスワード(確認用)
                 <span class="asterisk">※</span>
               </p>
-              <input class="password-confirmation-input input-reset" type="password" name="password" required="required">
+              <input class="password-confirmation-input input-reset" type="password" name="password-confirm" required="required">
             </div>
             <div class="course">
               <p class="course-text">希望コース</p>
               <div class="course-content">
-                <input class="course-input" type="checkbox" name="frontend" id="frontend">
+                <input class="course-input" type="checkbox" value="frontend" id="frontend" name="checkbox">
                 <label class="course-label" for="frontend">フロントエンド</label>
               </div>
               <div class="course-content">
-                <input class="course-input" type="checkbox" name="backend" id="backend">
+                <input class="course-input" type="checkbox" value="backend" id="backend" name="checkbox">
                 <label class="course-label" for="backend">バックエンド</label>
               </div>
               <div class="course-content">
-                <input class="course-input" type="checkbox" name="application" id="application">
+                <input class="course-input" type="checkbox" value="application" id="application" name="checkbox">
                 <label class="course-label" for="application">アプリ</label>
               </div>
             </div>
